@@ -1,0 +1,43 @@
+p{
+    color: rgb(36, 34, 33);
+    background-color: rgba(233, 205, 196, 0.5);
+    font-weight: 100;
+    text-indent: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+body::before{
+    content: '';
+    position:fixed;
+    left:0; right:0;
+    top:0; bottom:0;
+    z-index: -1; /*фон ниже текста*/
+    filter: blur(5px);
+    background-size: 100%100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOnev6yaLQfWbPEGm4NgXUTd62BuFZsSNxlKvKJyg4cqpgvFKEWGScCMIL3t1c8X5nGJg&usqp=CAU);
+}
+h1,h2{
+    font-family: "Palatino", URW Palladio L, serif;
+    font-style: italic;
+    color:rgb(8, 8, 8);
+    border: 5px solid;
+    padding-top: 5px;
+    border-color: rgb(148, 151, 148);
+    background-color: rgba(238, 218, 211, 0.5);
+}
+main{
+    margin-bottom: 50px;
+}
+footer{
+    color:aliceblue;
+    background-color: rgb(74, 74, 78);
+    border: 10px solid rgb(169, 112, 226);
+    border-radius: 1em;
+    border-top-right-radius: 10% 30%;
+
+}
+a{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;   
+}
